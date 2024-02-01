@@ -1,7 +1,8 @@
 body {
     background-color: #3c3c3c;
-
-
+}
+img{
+    background-size: cover;
 }
 @media screen and (max-width: 800px) {
 
