@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="icon" href="image/iconlogin.icon" class="icon11">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="style2.css">
+
+
+</head>
+
+<body class="bodyLogin" dir="auto">
+    <button id="toggle" class="button">Normal mode</button>
+    <p></p><br><br><br><br><br><br><br>
+    <p></p>
+    <center>
+        <p class="h11" id="error" ></p>
+        <br>
+        <section class="section1">
+            <br><br>
+            <h1 class="h11">Welcome</h1>
+            <b style="color:rgba(0, 0, 0, 0.685);">log in using, Your Email</b>
+            <br>
+            <br>
+            <form method="get">
+                <label style="color: black;">Email</label><br>
+                <input name="email" type="email" class="input" placeholder="Enter Your Email" id="email" required><br>
+                <label style="color: black;">password</label><br>
+                <input name="password" type="password" class="input" placeholder="Enter Your password" id="password"
+                    minlength="6" required>
+                <br><br>
+                <input class="login1" type="button" onclick="valueData()" value="Login" id="submit1">
+
+            </form>
+
+        </section>
+    </center>
+
+    <div class="content">Loading</div>
+
+    <script src="Script.js"></script>
+</body>
+
+</html>

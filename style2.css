@@ -1,0 +1,857 @@
+
+@media screen and (min-width: 800px){
+    body {
+        background-color: #3c3c3c;
+
+
+    }
+
+
+    .btn {
+        position: relative;
+        display: inline-block;
+        font-size: 2em;
+        letter-spacing: 0.1em;
+        text-decoration: none;
+        text-transform: uppercase;
+        border: 2px solid #00eeff;
+        border-radius: 30px;
+        padding: 15px 25px;
+        z-index: 1;
+        overflow: hidden;
+        transition: color 1s, box-shaow 1s;
+
+    }
+
+    .btn:hover {
+        transition: 1s 0s;
+        color: #fff;
+        box-shadow: 0 0 10px #0ef,
+            0 0 10px #0ef,
+            0 0 10px #0ef,
+            0 0 10px #0ef,
+            0 0 10px #0ef;
+    }
+
+    .btn::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -50px;
+        width: 0%;
+        height: 100%;
+        background-color: #0ef;
+        transform: skewX(35deg);
+        transition: 1s;
+        z-index: -1;
+    }
+
+    .btn:hover::before {
+        width: 100%;
+    }
+
+    /* تنسيق زر الوضع الليلي */
+    /* تعريف المتغيرات للألوان في الوضع العادي */
+    :root {
+        --bg-color: black;
+        --text-color: white;
+        --link-color: yellow;
+    }
+
+    /* استخدام المتغيرات في تنسيق العناصر */
+    body {
+        background-color: var(--bg-color);
+        color: var(--text-color);
+    }
+
+    a {
+        color: var(--link-color);
+    }
+
+    /* تنسيق الزر */
+    .button {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+        border-radius: 75px;
+        background-color: #16b48080;
+        text-align: center;
+    }
+
+    .button::before {
+        content: "";
+        left: -50px;
+
+        background-color: #0ef;
+        transform: skewX(35deg);
+        transition: 1s;
+        z-index: -1;
+    }
+
+    .button:hover::before {
+        width: 100%;
+    }
+
+    .button:hover {
+        transition: 1s 0s;
+        color: #fff;
+        box-shadow: 0 0 10px #0ef,
+            0 0 10px #0ef,
+            0 0 10px #0ef,
+            0 0 10px #0ef,
+            0 0 10px #0ef;
+    }
+
+    .button:focus {
+        transition: 1s 0s;
+        color: #fff;
+        box-shadow: 0 0 10px #c0f,
+            0 0 10px #c0f,
+            0 0 10px #c0f,
+            0 0 10px #c0f,
+            0 0 10px #c0f;
+    }
+
+    .button {
+
+        font-size: 10px;
+        letter-spacing: 0.1em;
+        text-decoration: none;
+        text-transform: uppercase;
+        border: 2px solid #7da03d73;
+        border-radius: 30px;
+        padding: 5px 5px;
+        z-index: 1;
+        overflow: hidden;
+        transition: color 1s, box-shaow 1s;
+
+
+    }
+
+    /* تنسيق الزر */
+    .button02 {
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        cursor: pointer;
+        border-radius: 75px;
+        background-color: #16b48080;
+        text-align: center;
+    }
+
+    .button02::before {
+        content: "";
+        left: -50px;
+
+        background-color: #0ef;
+        transform: skewX(35deg);
+        transition: 1s;
+        z-index: -1;
+    }
+
+    .button02:hover::before {
+        width: 100%;
+    }
+
+    .button02:hover {
+        transition: 1s 0s;
+        color: #fff;
+        box-shadow: 0 0 10px #0ef,
+            0 0 10px #0ef,
+            0 0 10px #0ef,
+            0 0 10px #0ef,
+            0 0 10px #0ef;
+    }
+
+    .button2:focus {
+        transition: 1s 0s;
+        color: #fff;
+        box-shadow: 0 0 10px #c0f,
+            0 0 10px #c0f,
+            0 0 10px #c0f,
+            0 0 10px #c0f,
+            0 0 10px #c0f;
+    }
+
+    .button02 {
+
+        font-size: 10px;
+        letter-spacing: 0.1em;
+        text-decoration: none;
+        text-transform: uppercase;
+        border: 2px solid #7da03d73;
+        border-radius: 30px;
+        padding: 5px 5px;
+        z-index: 1;
+        overflow: hidden;
+        transition: color 1s, box-shaow 1s;
+
+
+    }
+
+    /*   تنسيق زر المتابعة*/
+    .button020 {
+        top: 10px;
+        left: 10px;
+        cursor: pointer;
+        border-radius: 75px;
+        background-color: #16b48080;
+        text-align: center;
+    }
+
+    .button020::before {
+        content: "";
+        left: -50px;
+
+        background-color: #0ef;
+        transform: skewX(35deg);
+        transition: 1s;
+        z-index: -1;
+    }
+
+    .button020:hover::before {
+        width: 100%;
+    }
+
+    .button020:hover {
+        transition: 1s 0s;
+        color: #fff;
+        box-shadow: 0 0 10px #0ef,
+            0 0 10px #0ef,
+            0 0 10px #0ef,
+            0 0 10px #0ef,
+            0 0 10px #0ef;
+    }
+
+    .button20:focus {
+        transition: 1s 0s;
+        color: #fff;
+        box-shadow: 0 0 10px #c0f,
+            0 0 10px #c0f,
+            0 0 10px #c0f,
+            0 0 10px #c0f,
+            0 0 10px #c0f;
+    }
+
+    .button020 {
+
+        font-size: 10px;
+        letter-spacing: 0.1em;
+        text-decoration: none;
+        text-transform: uppercase;
+        border: 2px solid #7da03d73;
+        border-radius: 30px;
+        padding: 5px 5px;
+        z-index: 1;
+        overflow: hidden;
+        transition: color 1s, box-shaow 1s;
+
+
+    }
+
+    /* تنسيق صفحة login*/
+    .bodyLogin {
+        background-image: url("image/imageLogin1.jpg");
+        background-size: cover;
+
+    }
+
+    .section1 {
+        border: 2px solid black;
+        border-radius: 50px;
+        width: 35%;
+        height: 300px;
+        backdrop-filter: blur(15px);
+        background: rgba(95, 127, 146, 0.1);
+        transition: 1s 0s;
+        transform: scale(0);
+        opacity: 0;
+
+    }
+
+    /* نحدد أسلوب ال section عندما يكون مرئي */
+    .section1.visible {
+        /* نجعل ال section ينبثق بشكل تدريجي */
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    /* ============ */
+
+    .section1:hover {
+        width: 40%;
+        height: 350;
+        transition: 1s 0s;
+
+    }
+
+    /* ================== */
+    .input {
+        transition: 1s 0s;
+        width: 75%;
+        height: 25px;
+        border-radius: 50px;
+        border: 2px solid rgba(10, 1, 1, 0.507);
+        color: rgba(155, 17, 113, 0.815);
+        text-align: center;
+        text-shadow: #0ef;
+        background-color: #ffffff00;
+
+    }
+
+    .input::placeholder {
+        color: rgba(145, 15, 15, 0.651);
+    }
+
+    .input:hover {
+        background-color: rgba(0, 238, 255, 0.425);
+        transition: 1s 0s;
+        color: #fff;
+        box-shadow: 0 0 10px #0ef,
+            0 0 10px #0ef,
+            0 0 10px #0ef,
+            0 0 10px #0ef,
+            0 0 10px #0ef;
+    }
+
+    .input:active {
+        background-color: rgb(255, 81, 0);
+
+    }
+
+    .input:focus {
+        transition: 1s 0s;
+        color: #fff;
+        box-shadow: 0 0 10px #c0f,
+            0 0 10px #c0f,
+            0 0 10px #c0f,
+            0 0 10px #c0f,
+            0 0 10px #c0f;
+
+
+
+    }
+
+    .input::selection {
+        background-color: #1fb0d1;
+        color: wheat;
+
+    }
+
+    /* ================== */
+    .inputr1 {
+        transition: 1s 0s;
+        height: 40px;
+        width: 50%;
+        border-radius: 17px;
+        border: 2px solid rgba(174, 0, 255, 0.527);
+        color: rgba(155, 17, 113, 0.815);
+        text-align: center;
+        text-shadow: #0ef;
+        background-color: #ffffff00;
+
+
+
+    }
+
+    .inputr1::placeholder {
+        color: rgba(145, 15, 15, 0.651);
+    }
+
+    .inputr1:hover {
+        background-color: rgba(0, 238, 255, 0.425);
+        transition: 1s 0s;
+        color: #fff;
+        box-shadow: 0 0 10px #0ef,
+            0 0 10px #0ef,
+            0 0 10px #0ef,
+            0 0 10px #0ef,
+            0 0 10px #0ef;
+    }
+
+    .inputr1:active {
+        background-color: rgb(255, 81, 0);
+
+    }
+
+    .inputr1:focus {
+        transition: 1s 0s;
+        color: #fff;
+        box-shadow: 0 0 10px #c0f,
+            0 0 10px #c0f,
+            0 0 10px #c0f,
+            0 0 10px #c0f,
+            0 0 10px #c0f;
+
+
+
+    }
+
+    .inputr1::selection {
+        background-color: #1fb0d1;
+        color: wheat;
+
+    }
+
+    /* ================== */
+    .inputr2 {
+        transition: 1s 0s;
+        height: 100px;
+        width: 80%;
+        border-radius: 30px;
+        border: 2px solid rgba(174, 0, 255, 0.527);
+        color: rgba(155, 17, 113, 0.815);
+        text-align: center;
+        text-shadow: #0ef;
+        background-color: #ffffff00;
+
+       
+
+
+    }
+
+    .inputr2::placeholder {
+        color: rgba(145, 15, 15, 0.651);
+    }
+
+    .inputr2:hover {
+        background-color: rgba(0, 238, 255, 0.425);
+        transition: 1s 0s;
+        color: #fff;
+        box-shadow: 0 0 10px #0ef,
+            0 0 10px #0ef,
+            0 0 10px #0ef,
+            0 0 10px #0ef,
+            0 0 10px #0ef;
+    }
+
+    .inputr2:active {
+        background-color: rgb(255, 81, 0);
+
+    }
+
+
+
+    .inputr2:focus {
+        transition: 1s 0s;
+        color: #fff;
+        box-shadow: 0 0 10px #c0f,
+            0 0 10px #c0f,
+            0 0 10px #c0f,
+            0 0 10px #c0f,
+            0 0 10px #c0f;
+
+
+
+    }
+
+    .inputr2::selection {
+        background-color: #1fb0d1;
+        color: wheat;
+
+    }
+
+    .h11 {
+        transition: 1s 0s;
+        padding: 0;
+        margin: 0;
+        color: rgba(102, 163, 22, 0.589);
+
+    }
+
+    .h11:hover {
+        transition: 1s 0s;
+        color: #c07025;
+    }
+
+    .h11::selection {
+        background-color: #1fb0d1;
+        color: wheat;
+    }
+
+    .login1 {
+        border-radius: 50px;
+        border: 2px #3c3c3c solid;
+        background-color: #0ef;
+        background-size: contain;
+        text-align: center;
+        text-decoration: underline;
+        font-size: 20px;
+        padding: 2px 20%;
+        transition: 2s 0s;
+
+
+    }
+
+    .login1:hover {
+        transition: 1s 0s;
+        padding: 3px 25%;
+        color: #fff;
+
+    }
+
+    .login1:focus {
+        transition: 1s 0s;
+        color: #fff;
+        box-shadow: 0 0 10px #0ef,
+            0 0 10px #0ef,
+            0 0 10px #0ef,
+            0 0 10px #0ef,
+            0 0 10px #0ef;
+
+
+    }
+
+    .sub {
+        border-radius: 50px;
+        border: 2px #3c3c3c solid;
+        background-color: #0ef;
+        background-size: contain;
+        text-align: center;
+        text-decoration: underline;
+        font-size: 20px;
+        padding: 2px 20%;
+        transition: 2s 0s;
+        width: 25%;
+
+
+    }
+
+    .sub:hover {
+        transition: 1s 0s;
+        padding: 3px 25%;
+        color: #fff;
+
+    }
+
+    .sub:focus {
+        transition: 1s 0s;
+        color: #fff;
+        box-shadow: 0 0 10px #0ef,
+            0 0 10px #0ef,
+            0 0 10px #0ef,
+            0 0 10px #0ef,
+            0 0 10px #0ef;
+
+
+    }
+
+    .button2 {
+        color: #ffffff;
+        font-family: inherit;
+        font-size: inherit;
+        font-weight: bold;
+        background-color: #1fb0d1;
+        width: 195px;
+        height: 75px;
+        padding: 0;
+        border: 0;
+        margin: 0;
+        outline: 0;
+        flex-grow: 0;
+        flex-shrink: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 12px;
+        position: relative;
+        transition: background-color 180ms ease-out;
+
+    }
+
+    /* ======== */
+    /* هذا مثال على كيفية إضافة نمط CSS لموقع مدونات */
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial;
+        padding: 20px;
+
+    }
+
+    /* ترويسة/عنوان المدونة */
+    .header {
+        padding: 30px;
+        font-size: 40px;
+        text-align: center;
+        background: rgb(140, 6, 6);
+        border-radius: 25px;
+    }
+
+    /* إنشاء عمودين غير متساويين يطفوان بجانب بعضهما البعض */
+    /* العمود الأيسر */
+    .leftcolumn {
+
+        float: left;
+        width: 75%;
+    }
+
+    /* العمود الأيمن */
+    .rightcolumn {
+
+        float: left;
+        width: 25%;
+        padding-left: 20px;
+    }
+
+    /* صورة وهمية */
+    .fakeimg {
+        background-color: #aaa;
+        border: 1px solid wheat;
+        border-radius: 25px;
+        width: 100%;
+        padding: 20px;
+    }
+
+    /* إضافة تأثير بطاقة للمقالات */
+    .card {
+        border: 1px solid wheat;
+        border-radius: 25px;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    /* مسح العوامات بعد الأعمدة */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    /* تذييل الصفحة */
+    .footer {
+        border-radius: 25px;
+        padding: 20px;
+        text-align: center;
+        border: 1px solid wheat;
+        margin-top: 20px;
+    }
+
+    /* تخطيط متجاوب - عندما يكون عرض الشاشة أقل من 800 بكسل ، اجعل العمودين يتراصان فوق بعضهما البعض بدلاً من بجانب بعضهما */
+    @media screen and (max-width: 800px) {
+
+        .leftcolumn,
+        .rightcolumn {
+            width: 100%;
+            padding: 0;
+        }
+    }
+
+    .img {
+        border-radius: 25px;
+    }
+
+    .h11 {
+        background-image: url("image/R.gif");
+        background-size: cover;
+        background-position: center;
+        color: transparent;
+        background-clip: text;
+        -webkit-background-clip: text;
+    }
+
+    .h1 {
+        background-image: url("image/R\ \(1\).gif");
+        background-size: cover;
+        background-position: center;
+        color: transparent;
+        background-clip: text;
+        -webkit-background-clip: text;
+    }
+
+    .h22 {
+        background-image: url("image/R\ \(1\).gif");
+        background-size: cover;
+        background-position: center;
+        color: transparent;
+        background-clip: text;
+        -webkit-background-clip: text;
+    }
+
+    .content {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 110px;
+        height: 110px;
+        background: transparent;
+        border: px solid #3c3c3c;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 111px;
+        font-family: sans-serif;
+        color: #fff000;
+        font-size: 15px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        text-shadow: 0 0 20px #fff000;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        animation-name: fade-out 2s;
+    }
+
+    @keyframes animate {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+
+    .content:before {
+        content: "";
+        position: absolute;
+        top: -3px;
+        left: -3px;
+        width: 100%;
+        height: 100%;
+        border: 3pxx solid transparent;
+        border-top: 5px solid #fff000;
+        border-right: 5px solid #fff000;
+        border-radius: 50%;
+        animation: animate 2s linear infinite;
+    }
+
+    .center {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    ul div a {
+        position: relative;
+        text-decoration: none;
+        display: inline;
+        padding: 10px 15px;
+        z-index: 10000;
+        backdrop-filter: blur(15px);
+
+    }
+
+    ul div a i {
+        font-size: 2.5em;
+        pointer-events: none;
+        opacity: 0.25;
+        
+       
+
+    }
+
+    .icon:hover {
+        transition: 1s 0s;
+        color: #e100ff;
+    }
+
+    .icon11 {
+        border-radius: 50%;
+    }
+
+
+}
+
+/* 
+@media screen and (max-width: 500px) {
+
+    .btn {
+        padding: 7px 15px;
+        font-size: 0.75em;
+        z-index: 1;
+    }
+
+    .section1 {
+        width: 90%;
+    }
+
+    .section1:hover {
+        width: 95%;
+    }
+
+    ul div a i {
+        font-size: 1.5em;
+        opacity: 0.40;
+    }
+    .inputr1{
+        width: 80%;
+        height: 40px;
+    }
+    .inputr2{
+        width: 85%;
+        height: 100px;
+    }
+    .sub{
+        width: auto;
+    }
+}
+
+//@media screen and (max-width: 769px)  {
+    .btn {
+        padding: 12px 20px;
+        font-size: 0.90em;
+
+    }
+
+    .section1 {
+        width: 45%;
+    }
+
+    .section1:hover {
+        width: 50%;
+    }
+
+    ul div a i {
+        font-size: 1.5em;
+        opacity: 0.40;
+    }
+    .inputr1{
+        width: 50%;
+        height: 40px;
+    }
+    .inputr2{
+        width: 75%;
+        height: 100px;
+    }
+    .sub{
+        width: auto;
+    }
+}//
+
+@media screen and(max-width: 1280px) {
+    .btn {
+        padding: 15px 40px;
+        font-size: 2em;
+
+    }
+
+    .section1 {
+        width: 30%;
+    }
+
+    .section1:hover {
+        width: 40%;
+    }
+
+    ul div a i {
+        font-size: 1.5em;
+        opacity: 0.40;
+    }
+    .inputr1{
+        width: 75%;
+        height: 40px;
+    }
+    .inputr2{
+        width: 75%;
+        height: 100px;
+    }
+    .sub{
+        width: auto;
+    }
+} */
