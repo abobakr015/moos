@@ -84,7 +84,8 @@ window.addEventListener("load", () => {
 });
 var users = [
   { email: "moos@gmail.com", password: "moos" },
-  { email: "abobakr@gmail.com", password: "0987654321" }
+  { email: "abobakr@gmail.com", password: "0987654321" }, 
+{email: "Amersh@gmail.com",password:"Amersh"}
 ];
 function valueData() {
   var email = document.getElementById("email").value;
