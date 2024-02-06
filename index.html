@@ -17,7 +17,7 @@
     <p></p><br><br><br><br><br><br><br>
     <p></p>
     <center>
-        <p class="h11" id="error" ></p>
+        <p class="h11" id="error"></p>
         <br>
         <section class="section1">
             <br><br>
@@ -27,16 +27,24 @@
             <br>
             <form method="get">
                 <label style="color: black;">Email</label><br>
-                <input name="email" type="email" class="input" placeholder="Enter Your Email" id="email" required><br>
+                <div class="input-container">
+                <input name="email" type="email" class="input" placeholder="" id="email" required>
+                <label >Enter Your Email </label>
+            </div>
                 <label style="color: black;">password</label><br>
-                <input name="password" type="password" class="input" placeholder="Enter Your password" id="password"
+                <div class="input-container">
+                <input name="password" type="password" class="input" placeholder="" id="password"
                     minlength="6" required>
-                <br><br>
+                    <label>Enter Your password</label>
+                </div>
+                <br>
                 <input class="login1" type="button" onclick="valueData()" value="Login" id="submit1">
 
             </form>
 
+         
         </section>
+
     </center>
 
     <div class="content">Loading</div>
