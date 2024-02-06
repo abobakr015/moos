@@ -392,6 +392,34 @@ a {
     color: wheat;
 
 }
+/* ================ */
+    .input-container {
+        position: relative;
+        border-radius: 75px;
+        text-align: center;
+    }
+
+    .input-container input {
+        border: 2px solid rgba(10, 1, 1, 0.507);
+        color: rgba(155, 17, 113, 0.815);
+    }
+
+    .input-container label {
+        position: absolute;
+        top: 7px;
+        left: 40%;
+        color: rgba(145, 15, 15, 0.651);
+        transition: 0.3s;
+        font-size: 30%;
+    }
+
+    .input-container input:focus+label,
+    .input-container input:not(:placeholder-shown)+label {
+        top: -15px;
+        left: 17%;
+        color: #000;
+        font-size: 50%;
+    }
 
 /* ================== */
 .inputr2 {
