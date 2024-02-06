@@ -410,7 +410,7 @@ a {
         left: 40%;
         color: rgba(145, 15, 15, 0.651);
         transition: 0.3s;
-        font-size: 30%;
+        font-size: 40%;
     }
 
     .input-container input:focus+label,
@@ -418,7 +418,7 @@ a {
         top: -15px;
         left: 17%;
         color: #000;
-        font-size: 50%;
+        font-size: 60%;
     }
 
 /* ================== */
