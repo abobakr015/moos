@@ -1,4 +1,4 @@
-body {
+body  {
     background-color: #3c3c3c;
 }
 img{
@@ -353,7 +353,7 @@ a {
     .input-container label {
         position: absolute;
         top: 7px;
-        left: 35%;
+        left: 36%;
         color: rgba(145, 15, 15, 0.651);
         transition: 0.3s;
         font-size: 80%;
@@ -381,7 +381,7 @@ a {
     .input-container1 label {
         position: absolute;
         top: 7px;
-        left: 31%;
+        left: 30%;
         color: rgba(145, 15, 15, 0.651);
         transition: 0.3s;
         font-size: 80%;
