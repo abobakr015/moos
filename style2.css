@@ -353,7 +353,7 @@
         left: 40%;
         color: rgba(145, 15, 15, 0.651);
         transition: 0.3s;
-        font-size: 30%;
+        font-size: 50%;
     }
     .input-container input:focus + label,.input-container input:not(:placeholder-shown) + label {
         top: -15px;
@@ -374,10 +374,10 @@
     .input-container1 label {
         position: absolute;
         top: 7px;
-        left: 31%;
+        left: 50%;
         color: rgba(145, 15, 15, 0.651);
         transition: 0.3s;
-        font-size: 50%;
+        font-size: 60%;
     }
     .input-container1 input:focus + label,.input-container1 input:not(:placeholder-shown) + label {
         top: -15px;
