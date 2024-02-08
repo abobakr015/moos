@@ -44,7 +44,7 @@ for (var i = 0; i < cards.length; i++) {
   // إنشاء عنصر زر
   var btn = document.createElement("button");
   // إضافة نص إلى الزر
-  btn.innerHTML = "اقرأ المزيد";
+  btn.innerHTML = "اقرأ أقل";
   // إضافة خاصية بيانات للزر لتخزين مؤشر البطاقة
   btn.dataset.index = i;
   // إضافة حدث النقر للزر
@@ -80,7 +80,7 @@ const loader = document.querySelector(".content");
 window.addEventListener("load", () => {
   setTimeout(() => {
     loader.style.display = "none";
-  }, 2500);
+  }, 1500);
 });
 var users = [
   { email: "moos@gmail.com", password: "moos" },
