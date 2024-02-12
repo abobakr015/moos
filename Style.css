@@ -818,7 +818,7 @@ ul div a i {
   position: 5px;
   /* background-color: #212121; */
   font-family: "Montserrat";
-  overflow: scroll;
+  /*overflow: scroll;*/
 }
 .tooltip-container {
   position: relative;
